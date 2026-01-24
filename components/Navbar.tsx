@@ -1,5 +1,5 @@
 import Link from 'next/link';
-
+{/*Navbar*/}
 export default function Navbar() {
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50">
