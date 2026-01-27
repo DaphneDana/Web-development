@@ -1,5 +1,5 @@
 import Link from 'next/link';
-{/*Navbar*/}
+
 export default function Navbar() {
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50">
@@ -11,6 +11,15 @@ export default function Navbar() {
           <div className="flex items-center gap-6">
             <Link href="/" className="text-gray-700 hover:text-orange-600 transition-colors font-medium">
               Browse Recipes
+            </Link>
+            <Link href="/about" className="text-gray-700 hover:text-orange-600 transition-colors font-medium">
+              About
+            </Link>
+            <Link href="/careers" className="text-gray-700 hover:text-orange-600 transition-colors font-medium">
+              Careers
+            </Link>
+            <Link href="/contact" className="text-gray-700 hover:text-orange-600 transition-colors font-medium">
+              Contact
             </Link>
             <Link href="/add-recipe" className="bg-orange-600 text-white px-4 py-2 rounded-lg hover:bg-orange-700 transition-colors font-medium">
               Add Recipe
