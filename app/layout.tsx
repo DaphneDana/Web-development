@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Footer from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -14,7 +15,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "RecipeShare - Discover and Share Amazing Recipes",
-  description: "A community platform for sharing and discovering delicious recipes. Browse our collection of recipes from breakfast to dessert!",
+  description:
+    "A community platform for sharing and discovering delicious recipes. Browse our collection of recipes from breakfast to dessert!",
 };
 
 export default function RootLayout({
@@ -27,8 +29,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <div className="flex min-h-screen flex-col">
+          <main className="flex-1">{children}</main>
+          <Footer />
+        </div>
       </body>
     </html>
   );
 }
+
