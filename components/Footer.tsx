@@ -1,6 +1,7 @@
 'use client';
-
+{/*FOOTER COMPONENT*/}
 export default function Footer() {
+  
   const year = new Date().getFullYear();
 
   return (
@@ -38,6 +39,11 @@ export default function Footer() {
               <li>
                 <a href="/contact" className="hover:text-orange-400 transition-colors">
                   Contact
+                </a>
+              </li>
+              <li>
+                <a href="/faq" className="hover:text-orange-400 transition-colors">
+                  FAQ
                 </a>
               </li>
             </ul>
