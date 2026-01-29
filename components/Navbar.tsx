@@ -21,6 +21,9 @@ export default function Navbar() {
             <Link href="/contact" className="text-gray-700 hover:text-orange-600 transition-colors font-medium">
               Contact
             </Link>
+            <Link href="/faq" className="text-gray-700 hover:text-orange-600 transition-colors font-medium">
+              FAQ
+            </Link>
             <Link href="/add-recipe" className="bg-orange-600 text-white px-4 py-2 rounded-lg hover:bg-orange-700 transition-colors font-medium">
               Add Recipe
             </Link>
