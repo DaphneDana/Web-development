@@ -86,7 +86,7 @@ Each new member owns **one route and its features** end-to-end. You own **improv
 
 ---
 
-## 5. Member 1 – Build the Saved Recipes page
+## 5. Charles – Build the Saved Recipes page
 
 **Goal:** You own the **Saved recipes** feature: a new page at `/saved` plus the ability to save/unsave recipes. Users can save recipes from the recipe detail page and see all saved recipes on your page.
 
@@ -169,7 +169,7 @@ Each new member owns **one route and its features** end-to-end. You own **improv
 
 ---
 
-## 6. Member 2 – Build the Collections page
+## 6. Shimon – Build the Collections page
 
 **Goal:** You own a new **Collections** page at `/collections`. Users see curated groups of recipes (e.g. “Quick weeknight”, “Date night”, “Holiday favorites”). Each collection has a name, short description, and a list of recipes displayed with the existing RecipeCard.
 
