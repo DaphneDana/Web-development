@@ -32,7 +32,7 @@ export default function RecipeCard({
 
   return (
     <Link href={`/recipe/${id}`}>
-      <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 cursor-pointer h-full flex flex-col">
+      <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 cursor-pointer h-full flex flex-col border border-gray-200 dark:border-gray-700">
         <div className="relative w-full h-48">
           <Image
             src={image}
@@ -42,16 +42,16 @@ export default function RecipeCard({
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
           <div className="absolute top-3 right-3">
-            <span className={`px-2 py-1 rounded-full text-xs font-semibold ${difficultyColors[difficulty]}`}>
+            <span className={`px-2 py-1 rounded-full text-xs font-semibold ${difficultyColors[difficulty]} dark:bg-opacity-90`}>
               {difficulty}
             </span>
           </div>
         </div>
         <div className="p-4 flex flex-col flex-grow">
-          <span className="text-sm text-gray-500 mb-1">{category}</span>
-          <h3 className="text-xl font-bold text-gray-900 mb-2 line-clamp-1">{title}</h3>
-          <p className="text-gray-600 text-sm mb-4 line-clamp-2 flex-grow">{description}</p>
-          <div className="flex items-center justify-between text-sm text-gray-500 mt-auto">
+          <span className="text-sm text-gray-500 dark:text-gray-400 mb-1">{category}</span>
+          <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100 mb-2 line-clamp-1">{title}</h3>
+          <p className="text-gray-600 dark:text-gray-300 text-sm mb-4 line-clamp-2 flex-grow">{description}</p>
+          <div className="flex items-center justify-between text-sm text-gray-500 dark:text-gray-400 mt-auto">
             <div className="flex items-center gap-4">
               <span className="flex items-center gap-1">
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
