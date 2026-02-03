@@ -5,12 +5,12 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-900 text-gray-300 mt-16">
+    <footer className="bg-gray-900 dark:bg-gray-950 text-gray-300 mt-16 border-t border-gray-800 dark:border-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
         <div className="grid gap-8 md:grid-cols-4">
           <div>
-            <h2 className="text-2xl font-bold text-white mb-3">🍳 RecipeShare</h2>
-            <p className="text-sm text-gray-400">
+            <h2 className="text-2xl font-bold text-white dark:text-white mb-3">🍳 RecipeShare</h2>
+            <p className="text-sm text-gray-400 dark:text-gray-400">
               Discover, share, and cook delicious recipes from around the world. Made for
               food lovers by food lovers.
             </p>
@@ -74,7 +74,7 @@ export default function Footer() {
               <input
                 type="email"
                 placeholder="Your email"
-                className="flex-1 px-3 py-2 rounded-md text-sm bg-gray-800 border border-gray-700 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
+                className="flex-1 px-3 py-2 rounded-md text-sm bg-gray-800 dark:bg-gray-800 border border-gray-700 dark:border-gray-700 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
               />
               <button
                 type="submit"
