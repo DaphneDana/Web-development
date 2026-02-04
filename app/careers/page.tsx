@@ -1,6 +1,6 @@
 import Navbar from '@/components/Navbar';
 import Link from 'next/link';
-{/*careers */}
+{/*careers page */}
 interface JobOpening {
   id: string;
   title: string;
