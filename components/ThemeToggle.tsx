@@ -1,5 +1,5 @@
 'use client';
-
+{/*theme toggle component*/}
 import { useTheme } from '@/components/ThemeProvider';
 
 export default function ThemeToggle() {
