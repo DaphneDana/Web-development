@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
-
+{/*careers page*/Link}
 interface JobDetailPageProps {
   params: {
     id: string;
