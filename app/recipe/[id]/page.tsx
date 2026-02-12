@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import { mockRecipes } from '@/lib/mockData';
-
+{/*recipe page*/}
 interface RecipePageProps {
   params: {
     id: string;
