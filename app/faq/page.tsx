@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Navbar from '@/components/Navbar';
-
+{/*faq page*/}
 const faqs = [
   {
     id: 1,
