@@ -1,6 +1,6 @@
 import Navbar from '@/components/Navbar';
 import Link from 'next/link';
-
+{/*add-recipe page */}
 export default function AddRecipePage() {
   return (
     <div className="min-h-screen bg-gray-50">
