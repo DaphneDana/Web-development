@@ -1,5 +1,5 @@
 'use client';
-
+{/*theme provider component*/}
 import { createContext, useContext, useEffect, useState } from 'react';
 import type { Theme } from '@/lib/theme';
 import {
